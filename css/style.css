@@ -270,3 +270,63 @@ a {
 .benefits__item-text {
     color: #C4C4C4;
 }
+
+.slider {
+    margin-bottom: 100px;
+}
+
+.slider__inner {
+    margin: 0 -7px;
+
+}
+.slider__item {
+    margin: 0 7px;
+}
+
+.slider__item-box {
+    border: 1px solid #C4C4C4;
+    padding: 6px 6px 16px 6px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.slider__item-box:hover {
+    background: #5A0D67;
+    border: 1px solid #5A0D67;
+    color: #fff;
+    
+}
+
+.slider__images {
+    max-width: 100%;
+    margin-bottom: 23px;
+}
+.slider__item-title {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.slider__item-text {
+
+}
+
+.slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    background-color: #C4C4C4;
+    width: 50px;
+    height: 1px;
+}
+
+.slider .slick-active button{
+    height: 3px;
+    background: #5A0D67;
+}
