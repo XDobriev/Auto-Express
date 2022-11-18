@@ -344,7 +344,7 @@ a {
     justify-content: space-between;
 }
 .contacts__info {
-
+    padding: 50px;
 }
 
 .contacts__list {
@@ -395,6 +395,7 @@ a {
     line-height: 27px;
     font-weight: 300;
     color: #C4C4C4;
+    
 }
 
 .contacts__btn {
@@ -402,6 +403,7 @@ a {
     color: #fff;
     margin-top: 78px;
     cursor: pointer;
+    font-family: 'Oswald' sans-serif;
 }
 
 .footer {
