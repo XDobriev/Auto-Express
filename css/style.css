@@ -535,6 +535,9 @@ a {
         font-size: 28px;
         line-height: 36px;
     }
+    .slider__images {
+        width: 100%;
+    }
 }
 
 @media (max-width: 520px) {
@@ -566,8 +569,12 @@ a {
         margin-left: 110px;
     }
     .services__inner,
-    .benefits {
+    .benefits,
+    .slider{
         margin-bottom: 50px;
+    }
+    .slider .slick-dots button {
+        width: 10px;
     }
 }
 
